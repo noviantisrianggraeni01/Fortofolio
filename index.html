@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Novianti Sri Anggraeni</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe6f7, #c3e8ff);
+      color: #333;
+      overflow-x: hidden;
+      text-align: center;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid skyblue;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      color: skyblue;
+      font-size: 1.9em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.2s ease;
+    }
+
+    h2 {
+      color: skyblue;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      border-bottom: 2px dashed skyblue;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: linear-gradient(120deg, skyblue, #b3e0ff);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 0.95em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .skill:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    /* Hiasan kucing */
+    .cat {
+      position: absolute;
+      font-size: 2rem;
+      opacity: 0.7;
+      animation: float 6s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .cat:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+    .cat:nth-child(2) { top: 20%; right: 10%; animation-delay: 2s; }
+    .cat:nth-child(3) { bottom: 15%; left: 15%; animation-delay: 4s; }
+    .cat:nth-child(4) { bottom: 10%; right: 20%; animation-delay: 1s; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); opacity: 0.9; }
+      50% { transform: translateY(-15px); opacity: 0.6; }
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    /* Kontak */
+    .contact a {
+      display: inline-block;
+      margin: 8px 12px;
+      text-decoration: none;
+      color: #0078ff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <!-- Kucing lucu 🐱 -->
+  <div class="cat">🐾</div>
+
+  <!-- Header -->
+  <header>
+    <img src="novi2.jpg" alt="foto">
+    <h1>Novianti Sri Anggraeni</h1>
+    <p>Pelajar & Calon Web Designer </p>
+  </header>
+
+  <!-- Tentang Saya -->
+  <section>
+    <h2>Tentang Saya</h2>
+    <p> Halo! Nama saya Novianti Sri Anggraeni, siswa SMK kelas X PPLG 2. Saya adalah pelajar yang memiliki minat besar di bidang teknologi, komputer, dan pemrograman. Saya senang mempelajari cara membuat aplikasi, website, dan game sederhana.</p>
+    <p>Sebagai siswa jurusan Pengembangan Perangkat Lunak dan Gim, saya belajar untuk berpikir logis, kreatif, dan mampu bekerja sama dalam tim. Saya juga suka mencoba hal-hal baru yang bisa menambah wawasan di dunia digital.</p>
+    <p>Saya berharap ke depannya dapat menjadi programmer atau developer profesional yang bisa menciptakan karya bermanfaat bagi banyak orang. Bagi saya, belajar PPLG bukan hanya tentang kode, tetapi juga tentang membangun ide dan solusi melalui teknologi.</p>
+  </section>
+  
+  <section>
+      <h2>Pendidikan</h2>
+      <p><strong>SMKN 2 PURWAKARTA</strong> (2025 - 2026)</p>
+      <p><strong>JURUSAN PPLG</strong> — Pengembangan Perangkat Lunak dan Gim (2023 - Sekarang)</p>
+    </section>
+
+  <!-- Keahlian -->
+  <section>
+    <h2>Keahlian</h2>
+    <div class="skills">
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">Desain Web</div>
+      <div class="skill">Canva</div>
+    </div>
+  </section>
+
+ <footer>
+    &copy; 2025 Novianti Sri Anggraeni
+  </footer>
+</body>
+
+</body>
+</html>
